@@ -3,7 +3,6 @@
 ## Table of Contents
 * [User story](#user-story)
 * [Acceptance criteria](#acceptance-criteria)
-* [What was the goal of this project?](#what-was-the-goal-of-this-project)
 * [Link to demo video](#link-to-demo-video)
 * [Screenshot of webpage](#screenshot-of-webpage)
 * [Questions?](#questions)
@@ -26,15 +25,14 @@
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia
 - THEN I am able to successfully create, update, and delete data in my database
 
-## What was the goal of this project?
-- The goal of this project was to create an...
-
 ## Link to demo video
-- 
+- https://watch.screencastify.com/v/30Ktzr78BLpvc69feVjj
 
 ## Screenshot of webpage
-![Screenshot of home page]()
-![Screenshot of home page]()
+![Screenshot of home page](./images/Capture2.PNG)
+![Screenshot of home page](./images/Capture3.PNG)
+![Screenshot of home page](./images/Capture4.PNG)
+![Screenshot of home page](./images/Capture.PNG)
 
 ## Questions?
   - If you have any additional questions please feel free to reach out to me!
