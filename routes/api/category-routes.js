@@ -6,10 +6,10 @@ const { Category, Product } = require('../../models');
 router.get('/', async (req, res) => {
   // find all categories
   try {
-    const inquireCategory = await Category.findAll( {
+    const categoryData = await Category.findAll( {
       include: [{ model: Product}]
     });
-    res.status(200).json(inquireCategory);
+    res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -18,16 +18,16 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   try {
-    const inquireCategory = await Category.findByPk(req.params.id, {
+    const categoryData = await Category.findByPk(req.params.id, {
       include: [{ model: Product}]
     });
 
-    if (!inquireCategory) {
+    if (!categoryData) {
       res.status(404).json({ message: 'Invalid category id' });
       return;
     }
 
-    res.status(200).json(inquireCategory);
+    res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -36,8 +36,8 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   // create a new category
   try {
-    const inquireCategory = await Category.create(req.body);
-    res.status(200).json(inquireCategory);
+    const categoryData = await Category.create(req.body);
+    res.status(200).json(categoryData);
   } catch (err) {
     res.status(400).json(err);
   }
@@ -62,18 +62,18 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   try {
-    const inquireCategory = await Category.destroy({
+    const categoryData = await Category.destroy({
       where: {
         id: req.params.id
       }
     });
   
-    if (!inquireCategory) {
+    if (!categoryData) {
       res.status(404).json({ message: 'Invalid category id'});
       return;
     }
 
-    res.status(200).json(inquireCategory);
+    res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
   }
