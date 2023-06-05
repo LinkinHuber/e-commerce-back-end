@@ -4,7 +4,7 @@
 * [User story](#user-story)
 * [Acceptance criteria](#acceptance-criteria)
 * [Link to demo video](#link-to-demo-video)
-* [Screenshot of webpage](#screenshot-of-webpage)
+* [Screenshots of webpage](#screenshot-of-webpage)
 * [Questions?](#questions)
 
 ## User story
@@ -28,7 +28,7 @@
 ## Link to demo video
 - https://watch.screencastify.com/v/30Ktzr78BLpvc69feVjj
 
-## Screenshot of webpage
+## Screenshots of webpage
 ![Screenshot of home page](./images/Capture2.PNG)
 ![Screenshot of home page](./images/Capture3.PNG)
 ![Screenshot of home page](./images/Capture4.PNG)
