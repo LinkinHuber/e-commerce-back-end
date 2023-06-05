@@ -4,7 +4,7 @@
 * [User story](#user-story)
 * [Acceptance criteria](#acceptance-criteria)
 * [Link to demo video](#link-to-demo-video)
-* [Screenshots of webpage](#screenshot-of-webpage)
+* [Screenshots of webpage](#screenshots-of-webpage)
 * [Questions?](#questions)
 
 ## User story
